@@ -8,11 +8,19 @@
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
+  <header>
+    <img class="nav-menu"src="https://img.icons8.com/ios-filled/50/000000/menu.png"/>
+    <h1>Spieltag</h1>
+    <h2>@ Home</h2>
+  </header>
   <section id="instructions">
     <p id="type"></p>
     <img id="icon" alt="icon">
     <h2>Anleitung:</h2>
     <p id="explanation"></p>
+  </section>
+
+  <section id="buttons">
     <button onclick="startGame()">Spiel beginnen</button>
     <button onclick="skipGame()">Spiel überspringen</button>
   </section>
@@ -21,10 +29,19 @@
     <h1>Spielzeit</h1>
     <button onclick="startTimer(15)">15 Minuten</button>
     <button onclick="startTimer(30)">30 Minuten</button>
-    <section id="countdown">
-      <h1><span id="minutes"></span> Minuten</h1>
-    </section>
+    <button>Zeruck</button>
   </section>
+
+  <section id="countdown">
+    <p>Auf geht die Post</p>
+    <h1><span id="minutes"></span> Minuten</h1>
+    <button>Zeruck</button>
+  </section>
+
+  <section id="success">
+    <h1>Yay</h1>
+  </section>
+
   <script src="/assets/js/main.js"></script>
 </body>
 </html>
