@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play</title>
+  <script src="https://unpkg.com/get-sheet-done@0.1.5/dist/GetSheetDone.js"></script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <section id="instructions">
+    <p id="type"></p>
+    <img id="icon" alt="icon">
+    <h2>Anleitung:</h2>
+    <p id="explanation"></p>
+    <button onclick="startGame()">Spiel beginnen</button>
+    <button onclick="skipGame()">Spiel überspringen</button>
+  </section>
+
+  <section id="timer">
+    <h1>Spielzeit</h1>
+    <button onclick="startTimer(15)">15 Minuten</button>
+    <button onclick="startTimer(30)">30 Minuten</button>
+    <section id="countdown">
+      <h1><span id="minutes"></span> Minuten</h1>
+    </section>
+  </section>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

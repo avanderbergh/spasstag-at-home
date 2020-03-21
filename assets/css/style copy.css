@@ -78,10 +78,4 @@ p:nth-child(4){
 #start-game:active{
   color: crimson;
 }
-h3 {
-  text-align:center;
-}
 
-#timer {
-  display: none;
-}
