@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Schoolbell&display=swap");
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Schoolbell", cursive;
+}
+
+header {
+  text-align: center;
+  padding: 2em;
+}
+
+h1 {
+	font-size: 60px;
+	line-height: 0px;
+}
+
+h2 {
+	font-size: 24px;
+  line-height: 33px;
+  
+}
+section{
+  height: 100%;
+  width: 100%;
+
+}
+p:nth-child(1){
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+p:nth-child(2){
+  width: 70%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center
+}
+b{
+}
+#start-game{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  top: 77%;
+  left: 50%;
+  transform: translateX(-50%);
+  
+
+  
+
+}
+
+
+h3 {
+  text-align:center;
+}
+
+
