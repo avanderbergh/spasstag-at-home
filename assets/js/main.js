@@ -1,6 +1,7 @@
 const DOC_KEY = "1Qbu3hsAlxNS6ybsjzhLVGFtv287diwiD2tL8ZkMXvOE";
 const TYPES = ["Kreativ", "Bewegung", "Denken / Träumen"];
 
+let timeLeft = 0;
 function startGame() {
 	document.getElementById("instructions").style.display = "none";
 	document.getElementById("timer").style.display = "block";
@@ -10,12 +11,20 @@ function skipGame() {
 	location.reload();
 }
 
-function startTimer(length) {
+function setTimer(length) {
+	timeLeft = length;
+}
+
+function runTimer(length) {
 	length = length - 1;
 	document.getElementById("minutes").innerText = length;
 	if (length > 0) {
-		setTimeout(() => startTimer(length), 60000);
+		setTimeout(() => runTimer(length), 60000);
 	}
+}
+
+function startTimer() {
+	runTimer(timeLeft);
 }
 
 window.addEventListener("load", e => {

@@ -27,19 +27,20 @@
 
   <section id="timer">
     <h1>Spielzeit</h1>
-    <button onclick="startTimer(15)">15 Minuten</button>
-    <button onclick="startTimer(30)">30 Minuten</button>
+    <button onclick="setTimer(15)">15 Minuten</button>
+    <button onclick="setTimer(30)">30 Minuten</button>
     <button>Zeruck</button>
   </section>
 
   <section id="countdown">
     <p>Auf geht die Post</p>
     <h1><span id="minutes"></span> Minuten</h1>
+    <button onclick="startTimer()">Start</button>
     <button>Zeruck</button>
   </section>
 
   <section id="success">
-    <h1>Yay</h1>
+    <h1>Glückwunsch!</h1>
   </section>
 
   <script src="/assets/js/main.js"></script>
