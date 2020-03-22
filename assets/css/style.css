@@ -7,7 +7,7 @@ body {
   font-size: 16px;
 }
 header {
-  text-align: center;
+  text-align: left;
 }
 .nav-menu {
   position: fixed;
@@ -81,7 +81,6 @@ button {
   font-size: 1.5em;
   text-decoration: underline;
   background: none;
-  margin-top: 60%;
 }
 
 #timer {
@@ -91,8 +90,13 @@ button {
 
 #countdown {
   display: none;
+  height: 60vh;
 }
 
 #success {
   display: none;
+}
+
+#start-button {
+  margin-top: 80px;
 }
