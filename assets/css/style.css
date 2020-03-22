@@ -1,28 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Schoolbell&display=swap");
 body {
-	margin: 0;
-	padding: 2em;
-	font-family: "Schoolbell", cursive;
+  margin: 0;
+  padding: 2em;
+  font-family: "Schoolbell", cursive;
   background-color: #ffda16;
   font-size: 16px;
 }
 header {
-	text-align: center;
+  text-align: center;
 }
 .nav-menu {
   position: fixed;
   top: 1em;
   right: 1em;
-	height: 30px;
-	width: 30px;
+  height: 30px;
+  width: 30px;
 }
 h1 {
-	font-size: 3rem;
-	position: absolute;
-	width: 73px;
-	height: 46px;
-	left: 3%;
-	top: 1%;
+  font-size: 3rem;
+
+  width: 73px;
+  height: 46px;
+  left: 3%;
+  top: 50%;
 }
 
 h2 {
@@ -31,8 +31,8 @@ h2 {
 
 main {
   text-align: center;
-	height: 100%;
-	width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 #new-game {
@@ -41,12 +41,12 @@ main {
   align-items: center;
 }
 
-#new-game svg{
+#new-game svg {
   margin-right: 1em;
 }
 
 a:visited {
-	color: black;
+  color: black;
 }
 
 #type {
@@ -81,10 +81,12 @@ button {
   font-size: 1.5em;
   text-decoration: underline;
   background: none;
+  margin-top: 60%;
 }
 
 #timer {
   display: none;
+  top: 100%;
 }
 
 #countdown {
@@ -94,4 +96,3 @@ button {
 #success {
   display: none;
 }
-
