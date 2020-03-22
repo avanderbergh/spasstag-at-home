@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< HEAD
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,12 +20,37 @@
     <h2 id="name"></h2>
     <p>Anleitung: <span  id="explanation"></span></p>
   </section>
+=======
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play</title>
+    <script src="https://unpkg.com/get-sheet-done@0.1.5/dist/GetSheetDone.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="nav-menu"
+        src="https://img.icons8.com/ios-filled/50/000000/menu.png"
+      />
+      <h1>Spieltag</h1>
+      <h2>@ Home</h2>
+    </header>
+    <section id="instructions">
+      <p id="type"></p>
+      <img id="icon" alt="icon" />
+      <h2>Anleitung:</h2>
+      <p id="explanation"></p>
+    </section>
+>>>>>>> 49a96aee6380aeed522da36243e1d5ebed121bda
 
-  <section id="buttons">
-    <button onclick="startGame()">Spiel beginnen</button>
-    <button onclick="skipGame()">Spiel überspringen</button>
-  </section>
+    <section id="buttons">
+      <button onclick="startGame()">Spiel beginnen</button>
+      <button onclick="skipGame()">Spiel überspringen</button>
+    </section>
 
+<<<<<<< HEAD
   <section id="timer">
     <h1>Spielzeit</h1>
     <button onclick="setTimer(15)">15 Minuten</button>
@@ -38,11 +64,26 @@
     <button id="start-button" onclick="toggleTimer()">Start</button>
     <button onclick="location.reload()">Zeruck</button>
   </section>
+=======
+    <section id="timer">
+      <h1>Spielzeit</h1>
+      <button onclick="setTimer(15)">15 Minuten</button>
+      <button onclick="setTimer(30)">30 Minuten</button>
+      <button>Zeruck</button>
+    </section>
 
-  <section id="success">
-    <h1>Glückwunsch!</h1>
-  </section>
+    <section id="countdown">
+      <p>Ab geht die Post</p>
+      <h1><span id="minutes"></span> Minuten</h1>
+      <button onclick="startTimer()">Start</button>
+      <button>Zeruck</button>
+    </section>
+>>>>>>> 49a96aee6380aeed522da36243e1d5ebed121bda
 
-  <script src="/assets/js/main.js"></script>
-</body>
+    <section id="success">
+      <h1>Glückwunsch!</h1>
+    </section>
+
+    <script src="/assets/js/main.js"></script>
+  </body>
 </html>
