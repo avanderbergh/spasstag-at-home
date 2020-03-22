@@ -8,7 +8,6 @@ body {
 }
 header {
 	text-align: center;
-	padding: 2em;
 }
 .nav-menu {
   position: fixed;
@@ -36,13 +35,16 @@ main {
 	width: 100%;
 }
 
-#line {
-	position: absolute;
-	top: 82%;
-	left: 50%;
-	width: 80%;
-	transform: translateX(-50%);
+#new-game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+#new-game svg{
+  margin-right: 1em;
+}
+
 a:visited {
 	color: black;
 }
@@ -78,6 +80,7 @@ button {
   font-family: "Schoolbell";
   font-size: 1.5em;
   text-decoration: underline;
+  background: none;
 }
 
 #timer {
