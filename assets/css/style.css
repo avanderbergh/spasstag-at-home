@@ -84,7 +84,7 @@ button {
 }
 
 button:hover {
-  font-weight: bolder;
+  transform: scale(1.1);
 }
 
 #timer {
