@@ -1,39 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Spaßtag @ Home</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spieltag@Home</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://unpkg.com/get-sheet-done@0.1.5/dist/GetSheetDone.js"></script>
-  </head>
-  <body>
-    <header>
-      <img
-        class="nav-menu"
-        src="https://img.icons8.com/ios-filled/50/000000/menu.png"
-      />
-      <a id="start-game" href="game">Los geht's</a>
-      <h1>Spieltag</h1>
-      <h2>@Home</h2>
-    </header>
-    <main>
-      <section>
-        <p class="intro">
-          Dein kleiner Alltagshelfer für dich und deine Kids zu Hause
-        </p>
-
-        <p class="main-text">
-          Euch fällt die Decke auf dem Kopf und das Monster Langeweile ist in
-          Anmarsch? Kein Problem!
-        </p>
-        <p>
-          Mit Spieltag @home bekommt ihr täglich bis zu 6 Spiele und Aktivitäten
-          aus den Bereichen “Kreativ”, “Bewegung” und “Denken/Träumen”, die ihr
-          ganz einfach zu Hause gemeinsam machen könnt.
-        </p>
-        <p>Viel Spaß</p>
-      </section>
-    </main>
-  </body>
+	</head>
+	<body>
+		<header>
+			<img
+				class="nav-menu"
+				src="https://img.icons8.com/ios-filled/50/000000/menu.png"
+			/>
+			<h1>Spieltag</h1>
+			<h2>@ Home</h2>
+		</header>
+		<main>
+			<section>
+				<h3>Schön, dass du da bist! Gleich geht´s los.</h3>
+				<p id="erkärung">
+					Um eine neue Spielidee zu anzuzeigen drücke die untere Schlatfläche
+					"Neues Spiel"
+				</p>
+				<p>
+					Pro Tag werden dir insgesamt 6 Aktivitäten aus den Kategorien
+					"Kreativ", "Bewegung" und "Denken/Träumen" angezeigt.
+				</p>
+			</section>
+			<svg
+				id="icon"
+				width="50"
+				height="50"
+				viewBox="0 0 50 50"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+			>
+				<rect width="50" height="50" fill="url(#pattern0)" />
+				<defs>
+					<pattern
+						id="pattern0"
+						patternContentUnits="objectBoundingBox"
+						width="1"
+						height="1"
+					>
+						<use xlink:href="#image0" transform="scale(0.0208333)" />
+					</pattern>
+					<image
+						id="image0"
+						width="48"
+						height="48"
+						xlink:href="data:image/png;base64,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"
+					/>
+				</defs>
+			</svg>
+		</main>
+		<p class="main-text"></p>
+		<a id="neues-Spiel" href="game/play.html">Neues Spiel</a>
+		<svg
+			id="line"
+			width="150"
+			height="2"
+			viewBox="0 0 150 2"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+		>
+			<path d="M0 1H149.5" stroke="black" />
+		</svg>
+	</body>
 </html>

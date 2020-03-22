@@ -1,83 +1,97 @@
 @import url("https://fonts.googleapis.com/css?family=Schoolbell&display=swap");
-
 body {
 	margin: 0;
 	padding: 0;
 	font-family: "Schoolbell", cursive;
+	background-color: #ffda16;
 }
-
 header {
-  text-align: center;
-  padding: 2em;
+	text-align: center;
+	padding: 2em;
 }
-.nav-menu{
-float: right;
-margin: 0;
-height: 35px;
-width: 35px;
+.nav-menu {
+	float: right;
+	margin: 0;
+	height: 30px;
+	width: 30px;
 }
-
 h1 {
-	font-size: 60px;
-	line-height: 0px;
+	font-size: 30px;
+	position: absolute;
+	width: 73px;
+	height: 46px;
+	left: 3%;
+	top: 1%;
 }
-
 h2 {
-	font-size: 24px;
-  line-height: 33px;
-  
+	font-size: 18px;
+	position: absolute;
+	width: 73px;
+	height: 46px;
+	left: 5%;
+	top: 6.5%;
 }
-section{
-  height: 100%;
-  width: 100%;
+h3 {
+	width: 70%;
+	font-size: 25px;
+	position: absolute;
+	top: 22%;
+	left: 50%;
+	transform: translate(-50%);
+	text-align: center;
+}
+main {
+	height: 100%;
+	width: 100%;
+}
+section {
+	height: 100%;
+	width: 100%;
+}
+p:nth-child(2) {
+	position: absolute;
+	text-align: center;
+	top: 40%;
+	left: 50%;
+	width: 80%;
+	transform: translateX(-50%);
+}
+p:nth-child(3) {
+	position: absolute;
+	text-align: center;
+	top: 48%;
+	left: 50%;
+	width: 80%;
+	transform: translateX(-50%);
+}
+#neues-Spiel {
+	display: block;
+	font-size: 30px;
+	position: absolute;
+	top: 77%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-decoration: none;
+}
+svg,
+#icon {
+	position: absolute;
+	top: 76.6%;
+	left: 25%;
+	width: 80%;
+	transform: translateX(-50%);
+}
+#line {
+	position: absolute;
+	top: 82%;
+	left: 50%;
+	width: 80%;
+	transform: translateX(-50%);
+}
+a:visited {
+	color: black;
+}
 
-}
-p:nth-child(1){
-  position: absolute;
-  top: 22%;
-  left: 50%;
-  transform: translate(-50%);
-  text-align: center;
-}
-p:nth-child(2){
-  width: 80%;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%);
-  text-align: center
-}
-
-p:nth-child(3){
-  width: 80%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
-  text-align: center;
-}
-
-p:nth-child(4){
-  width: 20%;
-  position: absolute;
-  top: 66%;
-  left: 50%;
-  transform: translate(-50%);
-  text-align: center
-}
-
-#start-game{
-  display: block;
-  font-size: 30px;
-  position: absolute;
-  top: 77%;
-  left: 50%;
-  transform: translateX(-50%);
-  text-decoration: none;  
-}
-#start-game:active{
-  color: crimson;
-}
 h3 {
   text-align:center;
 }
@@ -93,3 +107,4 @@ h3 {
 #success {
   display: none;
 }
+
