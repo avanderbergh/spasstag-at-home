@@ -82,6 +82,7 @@ button {
   text-decoration: underline;
   background: none;
   outline: 0;
+  border: none;
 }
 
 button:hover {
