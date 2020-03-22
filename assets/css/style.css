@@ -85,3 +85,11 @@ h3 {
 #timer {
   display: none;
 }
+
+#countdown {
+  display: none;
+}
+
+#success {
+  display: none;
+}

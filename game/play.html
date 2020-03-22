@@ -16,8 +16,8 @@
   <section id="instructions">
     <p id="type"></p>
     <img id="icon" alt="icon">
-    <h2>Anleitung:</h2>
-    <p id="explanation"></p>
+    <h2 id="name"></h2>
+    <p>Anleitung: <span  id="explanation"></span></p>
   </section>
 
   <section id="buttons">
@@ -29,14 +29,14 @@
     <h1>Spielzeit</h1>
     <button onclick="setTimer(15)">15 Minuten</button>
     <button onclick="setTimer(30)">30 Minuten</button>
-    <button>Zeruck</button>
+    <button onclick="location.reload()">Zeruck</button>
   </section>
 
   <section id="countdown">
     <p>Auf geht die Post</p>
     <h1><span id="minutes"></span> Minuten</h1>
-    <button onclick="startTimer()">Start</button>
-    <button>Zeruck</button>
+    <button id="start-button" onclick="toggleTimer()">Start</button>
+    <button onclick="location.reload()">Zeruck</button>
   </section>
 
   <section id="success">
