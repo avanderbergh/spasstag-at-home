@@ -6,7 +6,8 @@ let paused = true;
 function startGame() {
   document.getElementById("buttons").style.display = "none";
   document.getElementById("instructions").style.display = "none";
-	document.getElementById("timer").style.display = "block";
+  document.getElementById("timer").style.display = "block";
+  document.getElementById("type").style.display = "none";
 }
 
 function skipGame() {
