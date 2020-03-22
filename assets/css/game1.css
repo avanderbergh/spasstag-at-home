@@ -1,20 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Schoolbell&display=swap");
 
 body {
-	margin: 0;
-	padding: 0;
-	font-family: "Schoolbell", cursive;
+  margin: 0;
+  padding: 0;
+  font-family: "Schoolbell", cursive;
+  background: ##ffda16;
 }
 header {
-    text-align: center;
-    padding: 2em;
-  }
-  .nav-menu{
+  text-align: center;
+  padding: 2em;
+}
+.nav-menu {
   float: right;
   margin: 0;
   height: 35px;
   width: 35px;
-  }
-  h1{
-      float:left;
-  }
+}
+h1 {
+  float: left;
+}
+
+.main-text {
+  width: 100%;
+  background: url("../img/frame.svg");
+}
+
+p {
+  width: 50%;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  color: black;
+}
