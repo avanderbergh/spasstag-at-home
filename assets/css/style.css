@@ -83,6 +83,10 @@ button {
   background: none;
 }
 
+button:hover {
+  font-weight: bolder;
+}
+
 #timer {
   display: none;
   top: 100%;
