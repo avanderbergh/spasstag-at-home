@@ -104,3 +104,7 @@ button:hover {
 #start-button {
   margin-top: 80px;
 }
+
+.logo:hover {
+  transform: scale(1.1);
+}
